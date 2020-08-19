@@ -1,6 +1,16 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import "../grids.css";
+// download font from google - put folder that downloaded in a separate folder in src called "fonts".
+// Import the "regular" file of folder into app.js or index.js - something which is in some way connected to the css file you want to link the font to.
+// @font-face {
+// font - family: "BalooTamma2";
+// src: local("BalooTamma2"),
+//     url(./fonts/BalooTamma2 - Regular.ttf) format("truetype");
+// } --- in grid.css
+
+// Then you can simply say: font-family: BalooTamma2 and it will show.
+
 // import { Table, Th, Tr, Tbody } from "react-bootstrap";
 
 // https://picsum.photos/200/300
