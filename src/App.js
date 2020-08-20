@@ -2,9 +2,7 @@ import React from "react";
 import "./App.css";
 // import { Button, Alert, Breadcrumb, Card } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Grids from "./components/grids";
 import Navigation from "./components/Navigation";
-import Header from "./components/Navigation";
 import { Container, Row, Col } from "react-bootstrap";
 import "./fonts/BalooTamma2-Regular.ttf";
 import Flowers from "./assets/images/flowers.jpeg";
@@ -34,20 +32,19 @@ function App() {
               <a href="#home" class="active">
                 Home
               </a>
-              <a id="secondnav">Home</a>
-              <a id="secondnav">coronavirus</a>
-              <a id="secondnav">News</a>
-              <a id="secondnav">News</a>
-              <a id="secondnav">News</a>
-              <a id="secondnav">News</a>
-              <a href="#about">Weather</a>
-              <a href="#news">iPlayer</a>
-              <a href="#contact">Sounds</a>
-              <a href="#about">CBBC</a>
-              <select href="#about">More</select>
-              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
+              <a href="#home" class="active">
+                Home
               </a>
+              <a href="#home" class="active">
+                Home
+              </a>
+              <a href="#home" class="active">
+                Home
+              </a>
+              <a href="#home" class="active">
+                Home
+              </a>
+              <select href="#about">More</select>
             </div>
           </div>
         </Row>
