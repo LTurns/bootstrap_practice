@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import "../grids.css";
+import Flowers from "../assets/images/flowers.jpeg";
 // download font from google - put folder that downloaded in a separate folder in src called "fonts".
 // Import the "regular" file of folder into app.js or index.js - something which is in some way connected to the css file you want to link the font to.
 // @font-face {
@@ -45,33 +46,27 @@ export default class Grids extends React.Component {
                 </Col>
               </Row>
             </Col>
-            <Col id="right" md={6}>
+            <Col id="right" md={6} sm={12}>
               <Row>
-                <Col sm={12} md={4}>
-                  <img
-                    className="images"
-                    src={"https://picsum.photos/200"}
-                    alt="pic"
-                  />
+                <Col md={6}>
+                  <p className="ml-auto">
+                    minima, veniam, assumenda, vel officia expedita? Minima
+                    repellendus a autem neque, aspernatur tempore libero ducimus
+                    distinctio, nobis vitae, doloribus fuga magnam consequuntur.
+                    Explicabo amet officiis reprehenderit sit nesciunt nam!
+                    Omnis, deleniti nemo sit ipsa, quaerat amet quas inventore
+                    earum laborum asperiores maiores fugiat voluptatibus. Minus
+                    officiis laborum rem in dolores et, nihil quos asperiores
+                    illum distinctio beatae aspernatur nam, ad itaque magni
+                    delectus minima ipsam veniam aperiam, dolorum repudiandae
+                    sit. Eligendi vero cum, at maxime consequatur natus soluta
+                    odit fugiat doloribus veritatis praesentium magnam ea
+                    voluptatibus, alias beatae facilis unde!
+                  </p>
                 </Col>
-                <Col sm={12} md={4}>
-                  <img src={"https://picsum.photos/200"} alt="pic" />
+                <Col md={6}>
+                  <img id="flowers" src={Flowers} alt="flowers"></img>
                 </Col>
-                <Col sm={12} md={4}>
-                  <img src={"https://picsum.photos/200"} alt="pic" />
-                </Col>
-              </Row>
-
-              <h1 className="rightTitle">Hello second side.</h1>
-              <Row>
-                <Col className="Col1" sm={1}></Col>
-                <Col className="Col1" sm={1}></Col>
-                <Col className="Col1" sm={2}></Col>
-                <Col className="Col2" sm={2}></Col>
-                <Col className="Col1" sm={2}></Col>
-                <Col className="Col1" sm={1}></Col>
-                <Col className="Col2" sm={1}></Col>
-                <Col className="Col1" sm={1}></Col>
               </Row>
             </Col>
           </Row>

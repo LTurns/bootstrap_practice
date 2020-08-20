@@ -3,6 +3,7 @@ import "./App.css";
 // import { Button, Alert, Breadcrumb, Card } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Grids from "./components/grids";
+import NavBar from "./components/navbars";
 import "./fonts/BalooTamma2-Regular.ttf";
 
 // import React from 'react';
@@ -18,22 +19,8 @@ function App() {
   return (
     <div className="App">
       <header>
+        <NavBar />
         <Grids />
-        {/* <Card style={{ color: "#000" }}>
-          <Card.Title>This is a Card</Card.Title>
-          <Card.Img
-            src="https://picsum.photos/200/100"
-            style={{ width: "50%" }}
-          />
-          <Card.Text>Hello this is my first react-bootstrap card.</Card.Text>
-        </Card>
-        <Breadcrumb>
-          <Breadcrumb.Item>Test</Breadcrumb.Item>
-          <Breadcrumb.Item>Test</Breadcrumb.Item>
-          <Breadcrumb.Item>Test</Breadcrumb.Item>
-        </Breadcrumb>
-        <Alert variant="primary">This is a button</Alert>
-        <Button>Test Button</Button> */}
       </header>
     </div>
   );

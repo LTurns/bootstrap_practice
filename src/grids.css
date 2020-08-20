@@ -5,9 +5,15 @@
   text-align: center;
   background-color: #f7dbd7;
   /* width: 100%; */
-  height: 50vh;
+  height: 100%;
   /* border: 2px solid white;
   border-right: 5px solid white; */
+}
+
+@media (min-width: 768px) {
+  #left {
+    height: 50vh;
+  }
 }
 
 @font-face {
@@ -16,12 +22,16 @@
     url(./fonts/BalooTamma2-Regular.ttf) format("truetype");
 }
 
+#flowers {
+  height: 400px;
+}
+
 h1 {
   font-family: BalooTamma2;
 }
 
 .title {
-  font-size: 100px;
+  font-size: 50px;
 }
 
 #right {
@@ -48,10 +58,16 @@ img {
 
 .rightTitle {
   margin-top: 5%;
-  font-size: 100px;
+  font-size: 50px;
 }
 
 .Col1 {
   background-color: #f7dbd7;
   height: 100vh;
+}
+
+p {
+  text-align: left;
+  margin-top: 5%;
+  padding: 4%;
 }
